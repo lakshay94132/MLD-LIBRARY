@@ -1,9 +1,10 @@
-import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import React, { useState } from 'react';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+
+import { Routes, Route } from 'react-router-dom';
 
 import Home from './pages/Home';
 import About from './pages/About';
@@ -12,10 +13,16 @@ import Facility from './pages/Facility';
 import Owner from './pages/Owner';
 
 function App() {
+  const [mode, setMode] = useState('light');
+
+  const toggleMode = () => {
+    setMode(mode === 'light' ? 'dark' : 'light');
+  };
+
   return (
-    <Router>
-      <Header/>
-      <Navbar />
+    <>
+      <Header mode={mode} toggleMode={toggleMode} />
+      <Navbar mode={mode} toggleMode={toggleMode} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -24,7 +31,7 @@ function App() {
         <Route path="/owner" element={<Owner />} />
       </Routes>
       <Footer />
-    </Router>
+    </>
   );
 }
 
