@@ -1,10 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-export default function Navbar({ mode, toggleMode }) {
+export default function Navbar() {
   return (
-    <nav className={`navbar navbar-expand-lg ${mode === 'light' ? 'navbar-light bg-light' : 'navbar-dark bg-dark'}`}>
+    <nav className="navbar navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand" to="/">MLD LIBRARY</Link>
+        <Link className="navbar-brand" to="/">
+          <img src="/LOGO.png" alt="MLD Library Logo" style={{ height: '60px', width: '130' }} />
+        </Link>
         <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -26,9 +28,6 @@ export default function Navbar({ mode, toggleMode }) {
               <Link className="nav-link" to="/Owner">Owner</Link>
             </li>
           </ul>
-          <button className={`btn btn-outline-${mode === 'light' ? 'dark' : 'light'}`} onClick={toggleMode}>
-            {mode === 'light' ? 'Dark Mode' : 'Light Mode'}
-          </button>
         </div>
       </div>
     </nav>

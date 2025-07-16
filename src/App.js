@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 
 import Header from './components/Header';
 import Navbar from './components/Navbar';
@@ -13,16 +13,10 @@ import Facility from './pages/Facility';
 import Owner from './pages/Owner';
 
 function App() {
-  const [mode, setMode] = useState('light');
-
-  const toggleMode = () => {
-    setMode(mode === 'light' ? 'dark' : 'light');
-  };
-
   return (
     <>
-      <Header mode={mode} toggleMode={toggleMode} />
-      <Navbar mode={mode} toggleMode={toggleMode} />
+      <Header />
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
