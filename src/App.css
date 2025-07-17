@@ -13,38 +13,25 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-.light-mode {
-  background-color: white;
-  color: black;
-  min-height: 100vh;
-}
-
-.dark-mode {
-  background-color: #121212;
-  color: white;
-  min-height: 100vh;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* Responsive styles for Header */
+@media (max-width: 768px) {
+  header.d-flex {
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    padding: 10px 5px !important;
   }
-  to {
-    transform: rotate(360deg);
+
+  header.d-flex img {
+    height: 50px !important;
+    width: 100px !important;
+    margin: 5px 0 !important;
+  }
+
+  header.d-flex h1 {
+    font-size: 1.2rem !important;
+    margin: 5px 0 !important;
+    white-space: normal !important;
+    text-align: center !important;
   }
 }
