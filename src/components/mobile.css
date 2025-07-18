@@ -1,0 +1,63 @@
+/* Mobile.css */
+
+/* Mobile breakpoints below 768px */
+@media (max-width: 767px) {
+  /* Headings smaller */
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  h4, h5 {
+    font-size: 1.2rem;
+  }
+
+  /* Paragraphs more readable */
+  p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+  }
+
+  /* Add more space below sections */
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  /* Images: always max width */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Navbar: stack items vertically */
+  .navbar .navbar-collapse {
+    text-align: center;
+  }
+
+  .navbar .nav-link {
+    display: block;
+    padding: 10px 0;
+  }
+
+  /* Contact form: larger inputs on mobile */
+  .contact-form .form-control {
+    font-size: 1rem;
+  }
+
+  /* Facility cards: spacing */
+  .card {
+    margin-bottom: 20px;
+  }
+
+  /* Facility image hover: disable zoom on tap */
+  .facility-image:hover {
+    transform: none;
+    box-shadow: none;
+  }
+
+  /* Footer: center text */
+  footer {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+}

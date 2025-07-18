@@ -1,0 +1,61 @@
+/* About.css */
+
+/* Text styles */
+.about-heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+  opacity: 0; 
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.about-subheading {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 1rem;
+   opacity: 0; 
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.about-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  transition: color 0.3s ease;
+   opacity: 0; 
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.about-text:hover {
+  color: #000;
+}
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+/* Image styles */
+.library-image {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+   opacity: 0; 
+  animation: fadeIn 0.8s ease forwards;
+  position: relative;
+  z-index: 2;
+}
+
+.library-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+/* Container */
+.about-section {
+  padding: 40px 0;
+}
+

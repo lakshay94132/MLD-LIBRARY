@@ -1,4 +1,5 @@
 import React from 'react';
+import "./mobile.css"; 
 
 export default function Header({ mode, toggleMode }) {
   return (
