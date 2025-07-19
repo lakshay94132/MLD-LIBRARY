@@ -85,9 +85,6 @@ export default function Contact() {
         className="contact-form"
       >
         <div className="mb-3">
-          <label htmlFor="name" className="form-label">
-            Name
-          </label>
           <input
             type="text"
             name="name"
@@ -99,9 +96,6 @@ export default function Contact() {
         </div>
 
         <div className="mb-3">
-          <label htmlFor="email" className="form-label">
-            Email
-          </label>
           <input
             type="email"
             name="email"
@@ -113,9 +107,6 @@ export default function Contact() {
         </div>
 
         <div className="mb-3">
-          <label htmlFor="message" className="form-label">
-            Message
-          </label>
           <textarea
             name="message"
             className="form-control"

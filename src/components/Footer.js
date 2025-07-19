@@ -1,6 +1,5 @@
 import React from "react";
 import "./mobile.css"; 
-
 export default function Footer({ mode, toggleMode }) {
   return (
     <footer
@@ -10,9 +9,9 @@ export default function Footer({ mode, toggleMode }) {
       }}
       className={`text-center py-3 `}
     >
-      <div>
-        Helper: Rajender Kardwal || 
-        <strong> Created By: Lakshay Limba || </strong>
+      <div >
+        Helper: Rajender Kardwal  
+        <strong> || Created By: <a href="lakshay.html">Lakshay Limba</a> || </strong>
         Helper: Ghanshyam Kardwal
 
       </div>

@@ -19,9 +19,9 @@ export default function Header({ mode, toggleMode }) {
       }}
     >
 
-      <img src="/assets/LOGO.png" alt="MLD Library Logo" style={{ height: '70px', width: '150px' }} />
-      <h1 className="m-0 text-center flex-grow-1"><strong>𝑀𝒜 𝐿𝐼𝒞𝐻𝐻𝑀𝒜 𝒟𝐸𝒱𝐼 𝐿𝐼𝐵𝑅𝒜𝑅𝒴</strong></h1>
-      <img src="/assets/LOGO.png" alt="MLD Library Logo"  style={{ height: '70px', width: '150px' }}/>
+      <img src="/assets/LOGO.png" alt="MLD Library Logo" style={{ height: '100px', width: '150px' }} />
+      <h1 className="m-0 text-center flex-grow-1"><strong>𝑀𝒜A 𝐿𝐼𝒞𝐻𝐻𝑀𝒜 𝒟𝐸𝒱𝐼 𝐿𝐼𝐵𝑅𝒜𝑅𝒴 and Computer center</strong></h1>
+      <img src="/assets/LOGO.png" alt="MLD Library Logo"  style={{ height: '100px', width: '150px' }}/>
     </header>
   );
 }
