@@ -13,10 +13,27 @@ main {
   border: 2px solid #f26c6c1f;
 }
 
+.owner-heading {
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 1.5rem;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
+.owner-text {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #555;
+  transition: color 0.3s ease;
+  opacity: 0;
+  animation: fadeIn 0.8s ease forwards;
+}
+
 /* OWNER IMAGE */
 .owner-image {
-  width: 180px;
-  height: 180px;
+  width: 230px;
+  height: 230px;
   object-fit: cover;
   border-radius: 10%;
   border: 5px solid #fff;

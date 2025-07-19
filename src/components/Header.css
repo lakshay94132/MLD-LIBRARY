@@ -1,0 +1,39 @@
+/* header.css */
+
+/* Container header */
+header {
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  padding: 20px 30px;
+}
+
+/* Library title text */
+header h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #000000;
+  text-shadow: 2px 2px 4px rgba(46, 170, 187, 0.3);
+  line-height: 1.2;
+}
+
+header img {
+  border-radius: 8px;
+}
+
+/* Make the header responsive */
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+    padding: 20px;
+  }
+
+  header img {
+    margin: 10px 0;
+    height: 80px;
+    width: auto;
+  }
+
+  header h1 {
+    font-size: 1.5rem;
+  }
+}

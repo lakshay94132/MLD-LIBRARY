@@ -7,9 +7,9 @@ export default function About() {
     <main className="container my-4">
       <div className="row align-items-center">
         <div className="col-md-6" style={{ marginBottom: "20px" }}>
-          <h2 className="about-heading">Welcome to MA LICHMA DEVI LIBRARY</h2>
+          <h2 className="about-heading">Welcome to MAA LICHHMA DEVI LIBRARY and Computer Center</h2>
           <p className="about-text">
-            Your peaceful place to read, learn, and grow. We are committed to
+            Is peaceful place to read, learn, and grow. We are committed to
             providing students, researchers, and the community with a rich
             collection of books and a calm environment to study.
           </p>
@@ -24,7 +24,7 @@ export default function About() {
           <img
             src="/assets/BackGround-Image.png"
             className="library-image img-fluid rounded shadow"
-            alt="Front of Library"
+            alt="Maa Lichhma Devi Library"
           />
         </div>
 
@@ -36,26 +36,37 @@ export default function About() {
           }}
         >
           <img
-            src="/assets/BackGround-Image.png"
+            src="/assets/History.webp"
             className="library-image img-fluid rounded shadow"
-            alt="Front of Library"
+            alt="Our History"
           />
         </div>
 
         <div className="col-md-6" style={{ marginBottom: "20px" }}>
           <h4 className="about-subheading">Our History</h4>
           <p className="about-text">
-            Founded in 2025 by the Limba family, MLD LIBRARY was created to help
-            students and readers access quality study resources close to home.
+            MAA LICHHMA DEVI LIBRARY was founded in 2025 in loving memory of
+            Late Smt. Lichma Devi Ji. Inspired by her vision for education and
+            community growth, the Limba family established this library to help
+            students and readers access quality study materials and a peaceful
+            place to learn, close to home.
           </p>
         </div>
 
         <div className="col-md-6" style={{ marginBottom: "20px" }}>
-          <h4 className="about-subheading">Our Mission</h4>
+          <h4 className="about-subheading">Our Vision and Mission</h4>
           <p className="about-text">
-            Our mission is to support education, self-learning, and community
-            growth by providing open access to books, digital materials, and
-            peaceful reading spaces.
+            To become the most trusted and peaceful study hub for students,
+            researchers, and the local community — empowering lives through easy
+            access to knowledge, resources, and a positive environment for
+            learning.
+          </p>
+          <p className="about-text">
+            To provide a well-equipped, welcoming library where students can
+            read, research, collaborate, and grow. We aim to offer modern
+            facilities like Wi-Fi, comfortable seating, separate reading
+            sections, digital access, and daily newspapers, ensuring every
+            learner feels inspired to achieve their goals.
           </p>
         </div>
         <div
@@ -66,9 +77,9 @@ export default function About() {
           }}
         >
           <img
-            src="/assets/BackGround-Image.png"
+            src="/assets/MV.jpg"
             className="library-image img-fluid rounded shadow"
-            alt="Front of Library"
+            alt="Vision and Mission"
           />
         </div>
 
@@ -82,21 +93,24 @@ export default function About() {
           <img
             src="/assets/BackGround-Image.png"
             className="library-image img-fluid rounded shadow"
-            alt="Front of Library"
+            alt="Our Founder"
           />
         </div>
 
         <div className="col-md-6" style={{ marginBottom: "20px" }}>
           <h4 className="about-subheading">Our Founder</h4>
           <p className="about-text">
-            MLD LIBRARY is proudly managed by Mr. Lakshay Limba, who is
-            dedicated to serving students and making knowledge accessible to
-            all.
+            MAA LICHHMA DEVI LIBRARY is proudly managed and developed under the
+            guidance of Mr. DharamPal Limba, whose dedication and vision turned
+            this dream into reality. Inspired by his mother, Smt. Lichma Devi
+            Ji, Mr. Limba has worked tirelessly to build a peaceful, welcoming
+            space where students can study, grow, and succeed.
           </p>
 
           <p className="about-text">
-            We welcome you to visit MLD LIBRARY and make it your second home for
-            learning and inspiration!
+            His commitment to providing modern facilities, helpful resources,
+            and a calm environment ensures that the library remains a second
+            home for every student who walks through its doors.
           </p>
         </div>
       </div>
