@@ -1,5 +1,5 @@
 import React from "react";
-import "./mobile.css"; 
+import "./App.css";
 
 export default function Home() {
   return (

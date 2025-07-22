@@ -1,6 +1,5 @@
 import React from "react";
-import "./facility.css";
-import "./mobile.css";
+import "./App.css";
 
 export default function Facility() {
   const facilities = [
@@ -128,7 +127,16 @@ export default function Facility() {
 
   return (
     <main className="container my-5">
-      <h2 className="mb-4">Facilities at MA LICHMA DEVI LIBRARY</h2>
+      <h2
+        className="mb-4  "
+        style={{
+          color: "var(--primary)",
+          textShadow: "0 0 8px var(--shadow)",
+          textAlign: "center",
+        }}
+      >
+        Facilities at MAA LICHHMA DEVI LIBRARY
+      </h2>
       <div className="row">
         {facilities.map((facility, index) => (
           <div key={index} className="col-md-3 mb-4">

@@ -1,21 +1,10 @@
 import React from "react";
-import "./about.css"; // Assuming you have a CSS file for styling
-import "./mobile.css"; // Mobile-specific styles
-
+import "./App.css";
 export default function About() {
   return (
     <main className="container my-4">
-      <div className="row align-items-center">
-        <div className="col-md-6" style={{ marginBottom: "20px" }}>
-          <h2 className="about-heading">Welcome to MAA LICHHMA DEVI LIBRARY and Computer Center</h2>
-          <p className="about-text">
-            Is peaceful place to read, learn, and grow. We are committed to
-            providing students, researchers, and the community with a rich
-            collection of books and a calm environment to study.
-          </p>
-        </div>
-        <div
-          className="col-md-6 text-center mb-4"
+      <div className="row align-items-center"><div
+          className="col-md-6 text-center mb-4 about-section"
           style={{
             marginBottom: "20px",
             marginTop: "20px",
@@ -23,13 +12,27 @@ export default function About() {
         >
           <img
             src="/assets/BackGround-Image.png"
-            className="library-image img-fluid rounded shadow"
+            className="library-image img-fluid rounded shadow about-image"
             alt="Maa Lichhma Devi Library"
           />
         </div>
+        <div
+          className="col-md-6 about-section"
+          style={{ marginBottom: "20px" }}
+        >
+          <h2 className="about-heading">
+            Welcome to MAA LICHHMA DEVI LIBRARY and Computer Center
+          </h2>
+          <p className="about-text">
+            Is peaceful place to read, learn, and grow. We are committed to
+            providing students, researchers, and the community with a rich
+            collection of books and a calm environment to study.
+          </p>
+        </div>
+        
 
         <div
-          className="col-md-6 text-center mb-4"
+          className="col-md-6 text-center mb-4 about-section"
           style={{
             marginBottom: "20px",
             marginTop: "20px",
@@ -37,12 +40,15 @@ export default function About() {
         >
           <img
             src="/assets/History.webp"
-            className="library-image img-fluid rounded shadow"
+            className="library-image img-fluid rounded shadow about-image"
             alt="Our History"
           />
         </div>
 
-        <div className="col-md-6" style={{ marginBottom: "20px" }}>
+        <div
+          className="col-md-6 about-section"
+          style={{ marginBottom: "20px" }}
+        >
           <h4 className="about-subheading">Our History</h4>
           <p className="about-text">
             MAA LICHHMA DEVI LIBRARY was founded in 2025 in loving memory of
@@ -52,8 +58,23 @@ export default function About() {
             place to learn, close to home.
           </p>
         </div>
-
-        <div className="col-md-6" style={{ marginBottom: "20px" }}>
+<div
+          className="col-md-6 text-center mb-4 about-section"
+          style={{
+            marginBottom: "20px",
+            marginTop: "20px",
+          }}
+        >
+          <img
+            src="/assets/MV.jpg"
+            className="library-image img-fluid rounded shadow about-image"
+            alt="Vision and Mission"
+          />
+        </div>
+        <div
+          className="col-md-6 about-section"
+          style={{ marginBottom: "20px" }}
+        >
           <h4 className="about-subheading">Our Vision and Mission</h4>
           <p className="about-text">
             To become the most trusted and peaceful study hub for students,
@@ -69,35 +90,26 @@ export default function About() {
             learner feels inspired to achieve their goals.
           </p>
         </div>
-        <div
-          className="col-md-6 text-center mb-4"
-          style={{
-            marginBottom: "20px",
-            marginTop: "20px",
-          }}
-        >
-          <img
-            src="/assets/MV.jpg"
-            className="library-image img-fluid rounded shadow"
-            alt="Vision and Mission"
-          />
-        </div>
+        
 
         <div
-          className="col-md-6 text-center mb-4"
+          className="col-md-6 text-center mb-4 about-section"
           style={{
             marginBottom: "20px",
             marginTop: "20px",
           }}
         >
           <img
-            src="/assets/BackGround-Image.png"
-            className="library-image img-fluid rounded shadow"
+            src="/assets/Owner(1).png"
+            className="library-image img-fluid rounded shadow about-image"
             alt="Our Founder"
           />
         </div>
 
-        <div className="col-md-6" style={{ marginBottom: "20px" }}>
+        <div
+          className="col-md-6 about-section"
+          style={{ marginBottom: "20px" }}
+        >
           <h4 className="about-subheading">Our Founder</h4>
           <p className="about-text">
             MAA LICHHMA DEVI LIBRARY is proudly managed and developed under the

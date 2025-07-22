@@ -1,10 +1,23 @@
 import React from "react";
-import "./owner.css";
+import "./App.css";
 
 export default function Owner() {
   return (
     <main>
       <div className="row align-items-center">
+        <div
+          className="col-md-6 text-center mb-4"
+          style={{
+            marginBottom: "20px",
+            marginTop: "20px",
+          }}
+        >
+          <img
+            src="/assets/Owner.jpg"
+            alt="Owner of MLD Library"
+            className="owner-image"
+          />
+        </div>
         <div className="col-md-6">
           <h3 className="owner-heading">Mr. DharamPal Limba</h3>
           <p className="owner-text">
@@ -54,19 +67,7 @@ export default function Owner() {
             <strong> Email:</strong> dharampallimba@gmail.com
           </p>
         </div>
-        <div
-          className="col-md-6 text-center mb-4"
-          style={{
-            marginBottom: "20px",
-            marginTop: "20px",
-          }}
-        >
-          <img
-            src="/assets/Testing.jpg"
-            alt="Owner of MLD Library"
-            className="owner-image"
-          />
-        </div>
+        
       </div>
       <p>
         MA LICHMA DEVI LIBRARY is proudly managed and developed under the
