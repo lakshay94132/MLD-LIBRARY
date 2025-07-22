@@ -13,12 +13,12 @@ export default function Footer({ mode, toggleMode }) {
     >
       <div >
         Helper: Rajender Kardwal  
-        <strong> || Created By: <a href="lakshay.html">Lakshay Limba</a> || </strong>
+        <strong > || Created By: <a href="lakshay.html" className="created">Lakshay Limba</a> || </strong>
         Helper: Ghanshyam Kardwal
 
       </div>
       <p style={{ marginBottom: "0px", marginTop: "5px" }}>
-        © 2024 MA LICHMA DEVI LIBRARY. All rights reserved.
+        © 2024 MAA LICHHMA DEVI LIBRARY. All rights reserved.
       </p>
     </footer>
   );

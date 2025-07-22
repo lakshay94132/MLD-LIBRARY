@@ -23,8 +23,9 @@ export default function Contact() {
             className="library-image img-fluid"
           />
         </div>
-
+          
     <div className="col-md-6">
+      <h3 className="owner-heading">Mr. DharamPal Limba</h3>
       <p className="contact-text">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -38,7 +39,7 @@ export default function Contact() {
           <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L8 2.207l6.646 6.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293z" />
           <path d="m8 3.293 4.712 4.712A4.5 4.5 0 0 0 8.758 15H3.5A1.5 1.5 0 0 1 2 13.5V9.293z" />
         </svg>
-        <strong> Address:</strong> MA LICHMA DEVI LIBRARY, Near aryuvedic hospital, Ward No. 7, Jandawali, Hanumangarh(335512), Rajasthan
+        <strong> Address:</strong> MAA LICHHMA DEVI LIBRARY, Near aryuvedic hospital, Ward No. 7, Jandawali, Hanumangarh(335512), Rajasthan
       </p>
 
       <p className="contact-text">

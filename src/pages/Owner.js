@@ -3,7 +3,7 @@ import "./App.css";
 
 export default function Owner() {
   return (
-    <main>
+    <main className="owner-container">
       <div className="row align-items-center">
         <div
           className="col-md-6 text-center mb-4"
@@ -70,7 +70,7 @@ export default function Owner() {
         
       </div>
       <p>
-        MA LICHMA DEVI LIBRARY is proudly managed and developed under the
+        MAA LICHHMA DEVI LIBRARY is proudly managed and developed under the
         guidance of Mr. DharamPal Limba, whose dedication and vision turned this
         dream into reality. Inspired by his mother, Smt. Lichma Devi Ji, Mr.
         Limba has worked tirelessly to build a peaceful, welcoming space where

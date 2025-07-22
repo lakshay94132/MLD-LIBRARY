@@ -16,19 +16,19 @@ export default function Facility() {
         "Chilled and clean drinking water available for all students anytime.",
     },
     {
-      image: "/assets/facilities/parking.png",
+      image: "/assets/facilities/parking.jpg",
       title: "Parking",
       description:
         "Spacious parking for two-wheelers and bicycles with CCTV security.",
     },
     {
-      image: "/assets/facilities/Charging.png",
+      image: "/assets/facilities/charging.png",
       title: "Charging Points",
       description:
         "Multiple charging points to plug in laptops and mobile phones during study.",
     },
     {
-      image: "/assets/facilities/NewsPapper.jpg",
+      image: "/assets/facilities/paper.jpg", 
       title: "Daily Newspapers",
       description:
         "Access to daily newspapers and magazines for general reading and awareness.",
@@ -58,7 +58,7 @@ export default function Facility() {
         "Girls Library is a calm and inspiring space designed for girls, with comfortable seating and a focused study environment.",
     },
     {
-      image: "/assets/facilities/Toilet.jpg",
+      image: "/assets/facilities/toilet.jpg",
       title: "Toilets ans Washrooms",
       description:
         "Clean and well-maintained toilets and washrooms for a hygienic and comfortable experience.",
@@ -88,7 +88,7 @@ export default function Facility() {
         "Dedicated resting room in the library for relaxation during long study hours.",
     },
     {
-      image: "/assets/facilities/Discussion.jpg",
+      image: "/assets/facilities/discussion.jpg",
       title: "Discussion Room",
       description:
         "Soundproof discussion rooms for group study and collaborative learning in the library.",
