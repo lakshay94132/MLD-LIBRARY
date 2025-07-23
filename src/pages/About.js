@@ -52,7 +52,7 @@ export default function About() {
           <h4 className="about-subheading">Our History</h4>
           <p className="about-text">
             MAA LICHHMA DEVI LIBRARY was founded in 2025 in loving memory of
-            Late Smt. Lichma Devi Ji. Inspired by her vision for education and
+            Late Smt. Lichhma Devi Ji. Inspired by her vision for education and
             community growth, the Limba family established this library to help
             students and readers access quality study materials and a peaceful
             place to learn, close to home.
@@ -113,9 +113,9 @@ export default function About() {
           <h4 className="about-subheading">Our Founder</h4>
           <p className="about-text">
             MAA LICHHMA DEVI LIBRARY is proudly managed and developed under the
-            guidance of Mr. DharamPal Limba, whose dedication and vision turned
-            this dream into reality. Inspired by his mother, Smt. Lichma Devi
-            Ji, Mr. Limba has worked tirelessly to build a peaceful, welcoming
+            guidance of Er. DharamPal Limba, whose dedication and vision turned
+            this dream into reality. Inspired by his mother, Smt. Lichhma Devi
+            Ji, Er. Limba has worked tirelessly to build a peaceful, welcoming
             space where students can study, grow, and succeed.
           </p>
 

@@ -9,8 +9,18 @@ export default function Navbar() {
         <Link className="navbar-brand" to="/">
           <img src="/assets/LOGOPNG.png" alt="MLD Library Logo" style={{ height: '60px', width: '130', padding: '0px'}} />
         </Link>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="custom-toggler-bar"></span>
+          <span className="custom-toggler-bar"></span>
+          <span className="custom-toggler-bar"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">

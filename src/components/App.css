@@ -33,6 +33,29 @@ body {
   animation: fadeInUp 0.8s ease forwards;
 }
 
+/* Remove default Bootstrap icon */
+.navbar-toggler-icon {
+  display: none;
+}
+
+/* Container button style */
+.navbar-toggler {
+  border: none;
+  padding: 0.25rem 0.5rem;
+  outline: none;
+}
+
+/* Custom bars */
+.custom-toggler-bar {
+  display: block;
+  width: 30px;
+  height: 3px;
+  margin: 5px auto;
+  background-color: var(--secondary);
+  transition: all 0.3s ease-in-out;
+  border-radius: 2px;
+}
+
 
 /* === HEADER === */
 header {

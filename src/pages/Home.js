@@ -12,7 +12,7 @@ export default function Home() {
             alt="Front of Library"
           />
           <p>
-            The front gate of MA LICHHMA DEVI LIBRARY welcomes all students and
+            The front gate of MAA LICHHHMA DEVI LIBRARY welcomes all students and
             visitors. We ensure a clean, secure entrance with clear signage. The
             library is easily accessible to everyone in the community.
           </p>
@@ -20,15 +20,12 @@ export default function Home() {
 
         <div className="col-md-6 text-center mb-4">
           <img
-            src="/assets/Parking.jpg"
+            src="/assets/Cabin.png"
             className="library-image img-fluid"
             alt="Parking of Library"
           />
           <p>
-            Our spacious parking area provides safe parking for bikes and
-            scooters. Covered parking and wide pathways make it convenient for
-            students. Visitors can focus on learning without worrying about
-            their vehicles.
+            Our library cabin provides a quiet, private space for focused study and meetings. Equipped with comfortable seating and good lighting, it’s ideal for discussions, project work, or individual reading. 
           </p>
         </div>
 
@@ -48,7 +45,7 @@ export default function Home() {
 
         <div className="col-md-6 text-center mb-4">
           <img
-            src="/assets/Testing.jpg"
+            src="/assets/Cabin.png"
             className="library-image img-fluid"
             alt="Lakshay Limba"
           />

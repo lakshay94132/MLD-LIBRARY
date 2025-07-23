@@ -19,7 +19,7 @@ export default function Owner() {
           />
         </div>
         <div className="col-md-6">
-          <h3 className="owner-heading">Mr. DharamPal Limba</h3>
+          <h3 className="owner-heading">Er. DharamPal Limba</h3>
           <p className="owner-text">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -71,8 +71,8 @@ export default function Owner() {
       </div>
       <p>
         MAA LICHHMA DEVI LIBRARY is proudly managed and developed under the
-        guidance of Mr. DharamPal Limba, whose dedication and vision turned this
-        dream into reality. Inspired by his mother, Smt. Lichma Devi Ji, Mr.
+        guidance of Er. DharamPal Limba, whose dedication and vision turned this
+        dream into reality. Inspired by his mother, Smt. Lichhma Devi Ji, Mr.
         Limba has worked tirelessly to build a peaceful, welcoming space where
         students can study, grow, and succeed.
       </p>
