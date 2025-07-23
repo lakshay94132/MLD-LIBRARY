@@ -46,13 +46,13 @@ export default function Facility() {
         "Comfortable seating spaces, designed for long study hours. A perfect environment that blends learning with comfort and focus.",
     },
     {
-      image: "/assets/facilities/cctv.jpg",
+      image: "/assets/facilities/Boys-Library.jpg",
       title: "Boys Library",
       description:
         "Boy Library is a peaceful study space designed for boys, offering comfort, focus, and rich learning resources.",
     },
     {
-      image: "/assets/facilities/cctv.jpg",
+      image: "/assets/facilities/Girls-Library.jpg",
       title: "Girls Library",
       description:
         "Girls Library is a calm and inspiring space designed for girls, with comfortable seating and a focused study environment.",

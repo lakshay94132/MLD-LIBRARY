@@ -17,6 +17,10 @@ body {
   margin: 0;
   padding: 0;
 }
+.Boys{
+  color: var(--primary);
+  font-weight: bold;
+}
 
 /* === HEADER === */
 header {

@@ -12,9 +12,8 @@ export default function Footer({ mode, toggleMode }) {
       className={`text-center py-3 `}
     >
       <div >
-        Helper: Rajender Kardwal  
-        <strong > || Created By: <a href="lakshay.html" className="created">Lakshay Limba</a> || </strong>
-        Helper: Ghanshyam Kardwal
+        <strong >Created By: <a href="lakshay.html" className="created"><i>Lakshay Limba</i></a> || </strong>
+        Helper: <a href="https://www.instagram.com/ghanshyam.kardwal/"> Ghanshyam Kardwal </a> || <a href="https://www.instagram.com/_rajender_09/"> Rajender Kardwal </a>
 
       </div>
       <p style={{ marginBottom: "0px", marginTop: "5px" }}>
